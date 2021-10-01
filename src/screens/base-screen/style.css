@@ -1,0 +1,54 @@
+.layout {
+  height: 100%;
+}
+
+.site-layout-content {
+  height: calc(100% - 54px);
+  background-color: #fff;
+  box-shadow: 0px 5px 6px rgb(0 0 0 / 4%);
+  border-radius: 4px;
+  padding-block: 2%;
+  padding-inline: 3%;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.profile-div {
+  float: right;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+.profile-div:hover,
+.profile-div:focus,
+.profile-div:active {
+  background-color: transparent !important;
+}
+.ant-row-rtl .profile-div {
+  float: left;
+  margin: 16px 0 16px 24px;
+}
+
+.ant-avatar {
+  vertical-align: 0 !important;
+}
+
+.inner-page {
+  width: 100%;
+  height: 100%;
+}
