@@ -20,7 +20,7 @@ function* loginSaga({ payload }: P.SagaGenericParams<LoginSagaParams>) {
   yield put(showLoader());
   try {
     if (
-      payload.params.email === "exampleuser@example.com" &&
+      payload.params.email === "user@example.com" &&
       payload.params.password === "1q2w3E**"
     ) {
       yield put(
@@ -33,7 +33,7 @@ function* loginSaga({ payload }: P.SagaGenericParams<LoginSagaParams>) {
       );
       payload.onSuccess("");
     } else if (
-      payload.params.email === "examplemoderator@example.com" &&
+      payload.params.email === "moderator@example.com" &&
       payload.params.password === "1q2w3E**"
     ) {
       yield put(

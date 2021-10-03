@@ -2,16 +2,34 @@
 
 Ant Design React User Management Project with Path Control according to Auth Roles including Redux and Redux Saga.
 
+## Description
+
+### `Auth Roles`
+
+There are two roles named `user` and `moderator`. Moderator can update the information of any user.
+
+### `Path Control`
+
+Authentication page automatically leads to `/login` path from any other paths. If authorized, user can only use allowed paths according to auth role. Any other path leads to `/error-page`.
+
+## `Dashboard Page`
+
+There is a table which allows moderator to go `/details` page to update a user' information. A chart which automatically calculates the number of people per city, is also included in dashboard page. Data is stored in local storage and managed with Redux.
+
+## `Details Page`
+
+Moderator can update the information of a user in this page.
+
 ## Authentication
 
 ### `moderator`
 
-email: examplemoderator@example.com
+email: moderator@example.com
 password: `1q2w3E**`
 
 ### `user`
 
-email: exampleuser@example.com
+email: user@example.com
 password: `1q2w3E**`
 
 ## Available Scripts
