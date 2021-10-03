@@ -1,6 +1,6 @@
 # ANTD EXAMPLE USER MANAGEMENT APP
 
-Ant Design React User Management Project with Path Control according to Auth Roles including Redux and Redux Saga.
+Ant Design React User Management Project with Path Control according to Auth Roles and Language Support including Redux and Redux Saga.
 
 ## Description
 
