@@ -12,11 +12,11 @@ There are two roles named `user` and `moderator`. Moderator can update the infor
 
 Authentication page automatically leads to `/login` path from any other paths. If authorized, user can only use allowed paths according to auth role. Any other path leads to `/error-page`.
 
-## `Dashboard Page`
+### `Dashboard Page`
 
 There is a table which allows moderator to go `/details` page to update a user' information. A chart which automatically calculates the number of people per city, is also included in dashboard page. Data is stored in local storage and managed with Redux.
 
-## `Details Page`
+### `Details Page`
 
 Moderator can update the information of a user in this page.
 
